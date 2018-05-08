@@ -17,10 +17,9 @@ body {
 }
 
 .main {
-    display: grid;
+    display: flex;
     height: 100%;
-    grid-template-columns: 15% auto 15%;
-    grid-template-rows: 30% 16% 16% 16%;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -50,6 +49,11 @@ body {
     padding: 5px 5px 5px 5px;
 }
 
+.item-hack {
+    opacity: 0;
+}
+
+
 </style>
 </head>
 
@@ -58,8 +62,12 @@ body {
 
         <div class="main">
             
+                <div class="item-hack">
+                        <img class="button" src="../res/firstroom.png"></img>
+        
+                    </div>
                 <div class="item-firstroom">
-                        <a href="fb://photo?2498596043491202"><img class="button" src="../res/firstroom.png"></img></a>
+                        <a href="fb://photo?id=2498596043491202"><img class="button" src="../res/firstroom.png"></img></a>
         
                     </div>
                     <div class="item-mainroom">
