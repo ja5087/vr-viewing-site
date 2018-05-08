@@ -19,29 +19,28 @@ body {
 .main {
     display: grid;
     height: 100%;
-    grid-template-columns: 25% auto 25%;
-    grid-template-rows: 23% 8% 8% 8% 53%;
-    text-align:center;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 30% 16% 16% 16%;
+    text-align: center;
 }
 
-
+.button {
+    max-height: 60%;
+    max-width: 60%;
+}
 
 .item-firstroom {
     grid-column-start: 2;
     grid-row-start: 2;
     vertical-align : middle;
     margin: auto;
-    height: 100%;
-    width: 100%;
 }
 
 .item-mainroom {
     grid-column-start: 2;
-    grid-row-start: 4;
+    grid-row-start: 3;
     vertical-align : middle;
     margin: auto;
-    height: 100%;
-    width: 100%;
 }
 
 
@@ -52,11 +51,14 @@ body {
 
         <div class="main">
             
-            <a href="fb://photo/2498596043491202" class="item-firstroom">
-                
-            </a>
-            <a href="fb://photo/2498587380158735" class="item-mainroom">
-            </a>
+                <div class="item-firstroom">
+                        <a href="fb://photo/2498596043491202"><img class="button" src="../res/firstroom.png"></img></a>
+        
+                    </div>
+                    <div class="item-mainroom">
+                        <a href="fb://photo/2498587380158735"><img class="button" src="../res/mainroom.png"></img></a>
+        
+                    </div>
 
         </div>
 
