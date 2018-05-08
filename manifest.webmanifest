@@ -1,0 +1,10 @@
+{
+    "name": "VR Viewing App",
+    "short_name": "VRApp",
+    "display": "standalone",
+    "start_url": "https://ja5087.github.io/vr-viewing-site/",
+    "background_color": "#fff",
+    "description": "A simple VR viewing app for GoodReads"
+        
+    
+}
